@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css"> 
+</head>
+<body>
+    <h1 class="titulo">Currículo</h1>
+    <div class="topo row">
+        <div class="col-auto">
+            <img class="img_exemplo" src="https://conteudo.imguol.com.br/c/entretenimento/32/2018/01/18/maca-1516308281068_v2_3x4.jpg" alt="exemplo de imagem" width="300">
+        </div>
+        <div class="col">
+            <div class="nome">
+                Gabriel Rizzatto
+            </div>
+            <p>
+                Data de nascimento: 20/11/2004<br>
+                Endereço: Rua Exemplo, 555 - Passo Fundo<br>
+                Telefone: (55)54 55588-5558<br>
+                Email: exemplo@exemplo.com
+            </p>
+        </div>
+    </div>
+
+    <ul class="nav nav-tabs" id="myTab" >
+        <li class="nav-item">
+            <button class="nav-link active" id="objetivo-tab" data-bs-toggle="tab" data-bs-target="#objetivo" type="button" aria-controls="objetivo" aria-selected="true">Objetivo</button>
+        </li>
+        <li class="nav-item" >
+            <button class="nav-link" id="formacao-tab" data-bs-toggle="tab" data-bs-target="#formacao" type="button"  aria-controls="formacao" aria-selected="false">Formação Acadêmica</button>
+        </li>
+        <li class="nav-item" >
+            <button class="nav-link" id="experiencia-tab" data-bs-toggle="tab" data-bs-target="#experiencia" type="button"  aria-controls="experiencia" aria-selected="false">Experiência Acadêmica</button>
+        </li>
+        <li class="nav-item" >
+            <button class="nav-link" id="redes-tab" data-bs-toggle="tab" data-bs-target="#redes" type="button"  aria-controls="redes" aria-selected="false">Redes Sociais</button>
+        </li>
+      </ul>
+      
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="objetivo" aria-labelledby="objetivo-tab">
+            <p> 
+                Estudante de Bacharelado em Ciência da Computação, 
+                com forte interesse em desenvolvimento de software, algoritmos e 
+                resolução de problemas computacionais. Busco uma oportunidade de 
+                estágio onde possa aplicar meus conhecimentos e adquirir experiência prática.
+            </p>
+        </div>
+
+        <div class="tab-pane fade" id="formacao"  aria-labelledby="formacao-tab">
+            <p>
+                <span class="format">Bacharelado em Ciência da Computação</span> <br>
+                IFSUL - Passo Fundo, RS <br>
+                Início: [Agosto/2024] | Previsão de conclusão: Sem data
+            </p>
+        </div>
+
+        <div class="tab-pane fade" id="experiencia"  aria-labelledby="experiencia-tab">
+            <p>
+                <span class="format">Sistema de Gerenciamento de Tarefas</span><br>
+                Instituição Exemplo – Maio/2023
+            </p>
+            <ul>
+                <li>Desenvolvi um sistema web para gerenciamento de tarefas utilizando HTML, CSS, JavaScript e Python (Flask).</li>
+                <li>Implementei autenticação de usuários e funcionalidades de CRUD.</li>
+                <li>Utilizei banco de dados SQLite para armazenamento de dados.</li>
+            </ul>
+        </div>
+        
+        <div class="tab-pane fade" id="redes"  aria-labelledby="redes-tab">
+            <ol>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li><a href="https://web.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://x.com/" target="_blank">X</a></li>
+                <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+            </ol>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
